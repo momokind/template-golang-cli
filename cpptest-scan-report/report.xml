@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="Default Project-2023-12-06" date="12/06/23 09:02:24" machine="DFC-LANTU-L7-autodrive-Jenkins01" project="Default Project" tag="MISRA C 2004" time="2023-12-06T09:02:24+08:00" toolName="C++test" toolVer="2023.1.1.20230621B2144" user="dfuser">
+   <TestConfig machine="DFC-LANTU-L7-autodrive-Jenkins01" name="MISRA C 2004" pseudoUrl="c++test.builtin://MISRA C 2004" user="dfuser"/>
+   <Authors>
+      <Author id="dev1" name="dfuser"/>
+   </Authors>
+   <VersionInfos>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IExecutionViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="InsureViolation" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.scope" resultId="IScopeProjectInfo" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationProjectInfo" ver="2"/>
+   </VersionInfos>
+   
+   
+   <Scope>
+      <ProjectInformations>
+         <ScopeProjectInfo fltFiles="8" fltLns="390" project="/Timer" totFiles="8" totLns="390"/>
+      </ProjectInformations>
+   </Scope>
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:04">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="8" checkedLns="390" name="Timer" qfixErrs="0" suppErrs="0" totErrs="167" totFiles="8" totLns="390"/>
+      </Projects>
+      <Rules>
+         <RulesList>
+            <Rule cat="MISRA2004" desc="Don't write code that depends on the order of evaluation of function arguments" id="MISRA2004-12_2_b" sev="1">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions between signed and unsigned integer types" id="MISRA2004-10_1_a" sev="3">
+               <Stats authTot="4;" total="4"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no implicit conversions from integral to floating type" id="MISRA2004-10_1_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of complex expressions" id="MISRA2004-10_1_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions from wider to narrower types" id="MISRA2004-10_1_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of function return expressions" id="MISRA2004-10_1_e" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of complex expressions" id="MISRA2004-10_1_f" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of function arguments" id="MISRA2004-10_1_g" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of complex expressions" id="MISRA2004-10_1_i" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions from floating to integral type" id="MISRA2004-10_2_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions from wider to narrower floating type" id="MISRA2004-10_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions from narrower to wider floating type" id="MISRA2004-10_2_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid implicit conversions of floating point numbers from wider to narrower floating type" id="MISRA2004-10_2_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The value of a complex expression of integer type shall only be cast to a type  of the same signedness that is no wider than the underlying type of the expression" id="MISRA2004-10_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The value of a complex expression of floating type should not be cast to a wider floating type" id="MISRA2004-10_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The value of a complex expression of floating type should not be cast to an integer type" id="MISRA2004-10_4_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="If the bitwise operators ~ and &lt;&lt; are applied to an operand of underlying type unsigned char or unsigned short, the result shall be immediately cast to the underlying type of the operand" id="MISRA2004-10_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Conversions shall not be performed between a pointer to a function and any type other than an integral type" id="MISRA2004-11_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Conversions shall not be performed between a pointer to object and any type other than an integral type, another pointer to object type or a pointer to void" id="MISRA2004-11_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Conversions shall not be performed between a pointer to object and any type other than an integral type, another pointer to object type or a pointer to void" id="MISRA2004-11_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Conversions shall not be performed between a pointer to object and any type other than an integral type, another pointer to object type or a pointer to void" id="MISRA2004-11_2_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A cast should not convert a pointer type to an integral type" id="MISRA2004-11_3_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A cast should not convert an integral type to a pointer type" id="MISRA2004-11_3_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A cast should not be performed between a pointer to object type and a different pointer to object type" id="MISRA2004-11_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A cast shall not remove any 'const' or 'volatile' qualification from the type of a pointer or reference" id="MISRA2004-11_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The comma operator shall not be used" id="MISRA2004-12_10" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The underlying bit representations of floating-point values shall not be used" id="MISRA2004-12_12" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The increment (++) and decrement (--) operators should not be mixed with other operators in an expression" id="MISRA2004-12_13" sev="3">
+               <Stats authTot="1;" total="1"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Use parenthesis for the right-hand operand of an assignment operator when it contains an assignment expression" id="MISRA2004-12_1_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Limited dependence should be placed on C's operator precedence rules in expressions" id="MISRA2004-12_1_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Use parentheses unless all operators in the expression are the same" id="MISRA2004-12_1_e" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The value of an expression shall be the same under any order of evaluation that the standard permits" id="MISRA2004-12_2_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Don't write code that depends on the order of evaluation of function designator and function arguments" id="MISRA2004-12_2_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Don't write code that depends on the order of evaluation of expression that involves a function call" id="MISRA2004-12_2_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Between sequence points an object shall have its stored value modified at most once by the evaluation of an expression" id="MISRA2004-12_2_e" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not use more than one volatile between two adjacent sequence points" id="MISRA2004-12_2_f" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Don't write code that depends on the order of evaluation of function calls" id="MISRA2004-12_2_g" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The operand of the sizeof operator shall not contain any expression which has side effects" id="MISRA2004-12_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Object designated by a volatile lvalue should not be accessed in the operand of the sizeof operator" id="MISRA2004-12_3_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The function call that causes the side effect shall not be the operand of the sizeof operator" id="MISRA2004-12_3_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The right-hand operand of a logical &amp;&amp; or || operator shall not contain side effects" id="MISRA2004-12_4_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The operands of a logical &amp;&amp; or || shall be primary-expressions" id="MISRA2004-12_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The operands of logical operators (&amp;&amp;, || and !) should be effectively Boolean" id="MISRA2004-12_6_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Expressions that are effectively Boolean should not be used as operands to operators other than (&amp;&amp;, ||, !, =, ==, !=, ?:)" id="MISRA2004-12_6_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Bitwise operators shall not be applied to operands whose underlying type is signed" id="MISRA2004-12_7" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The right-hand operand of a shift operator shall lie between zero and one less than the width in bits of the underlying type of the left-hand operand" id="MISRA2004-12_8" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The unary minus operator shall not be applied to an expression whose underlying type is unsigned" id="MISRA2004-12_9" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Assignment operators shall not be used in expressions that yield a Boolean value" id="MISRA2004-13_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Tests of a value against zero should be made explicit, unless the operand is effectively Boolean" id="MISRA2004-13_2" sev="3">
+               <Stats authTot="2;" total="2"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Floating-point expressions shall not be tested for equality or inequality" id="MISRA2004-13_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The controlling expression of a for statement shall not contain any objects of floating type" id="MISRA2004-13_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The three expressions of a for statement shall be concerned only with loop control" id="MISRA2004-13_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not modify for loop counter within a body of the loop" id="MISRA2004-13_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_aa" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ab" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ac" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ad" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ae" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_af" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ag" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ah" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ai" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_aj" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_ak" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_j" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_k" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_l" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_m" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_n" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_s" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_t" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_u" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_v" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_w" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_x" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_y" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Boolean operations whose results are invariant shall not be permitted" id="MISRA2004-13_7_z" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All 'if...else-if' constructs shall be terminated with an 'else' clause" id="MISRA2004-14_10" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code in &quot;else&quot; block" id="MISRA2004-14_1_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code after 'return', 'break', 'continue', and 'goto' statements" id="MISRA2004-14_1_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code in &quot;if/else/while/for&quot; block" id="MISRA2004-14_1_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code in switch statement" id="MISRA2004-14_1_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code in 'for' loop" id="MISRA2004-14_1_e" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code after 'if' or 'switch' statement" id="MISRA2004-14_1_f" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no unreachable code after &quot;if&quot; or &quot;switch&quot; statement inside while/for/do...while loop" id="MISRA2004-14_1_g" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All non-null statements shall either have at least one side-effect however executed or cause control flow to change" id="MISRA2004-14_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A null statement shall occur on a line by itself or be followed by a comment" id="MISRA2004-14_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The goto statement shall not be used" id="MISRA2004-14_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The continue statement shall not be used" id="MISRA2004-14_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="For any iteration statement there shall be at most one break statement used for loop termination" id="MISRA2004-14_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A function shall have a single point of exit at the end of the function" id="MISRA2004-14_7" sev="3">
+               <Stats authTot="3;" total="3"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The statement forming the body of a 'switch', 'while', 'do...while' or 'for' statement shall be a compound statement" id="MISRA2004-14_8" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="'if' and 'else' should be followed by a compound statement" id="MISRA2004-14_9" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A break statement should be placed only at the end of switch clause" id="MISRA2004-15_0_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A switch statement shall only contain switch labels and switch clauses, and no other code" id="MISRA2004-15_0_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A switch label shall only be used when the most closely-enclosing compound statement is the body of a switch statement" id="MISRA2004-15_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="An unconditional break statement shall terminate every non-empty case clause" id="MISRA2004-15_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="An unconditional break statement shall terminate every non-empty default clause" id="MISRA2004-15_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The final clause of a switch statement shall be the default clause" id="MISRA2004-15_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A switch expression shall not represent a value that is effectively Boolean" id="MISRA2004-15_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A switch expression shall not represent a value that is effectively Boolean" id="MISRA2004-15_4_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Every switch statement shall have at least one case clause" id="MISRA2004-15_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Functions shall not be defined with a variable number of arguments" id="MISRA2004-16_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="If a function returns error information, then that error information shall be tested" id="MISRA2004-16_10" sev="3">
+               <Stats authTot="31;" total="31"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Functions shall not call themselves, either directly or indirectly" id="MISRA2004-16_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Identifiers shall be given for all of the parameters in a function prototype declaration" id="MISRA2004-16_3" sev="3">
+               <Stats authTot="5;" total="5"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The identifiers used in the declaration and definition of a function shall be identical" id="MISRA2004-16_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Functions with no parameters shall be declared with parameter type void" id="MISRA2004-16_5" sev="3">
+               <Stats authTot="17;" total="17"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The number of arguments passed to a function shall match the number of parameters" id="MISRA2004-16_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object" id="MISRA2004-16_7" sev="3">
+               <Stats authTot="1;" total="1"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Declare a type of parameter as typedef to pointer to const if the pointer is not used to modify the addressed object" id="MISRA2004-16_7_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All exit paths from a function with non-void return type shall have an explicit return statement with an expression" id="MISRA2004-16_8" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All exit paths from a function, except main(), with non-void return type shall have an explicit return statement with an expression" id="MISRA2004-16_8_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A function identifier shall only be used with either a preceding '&amp;', or with a parenthesised parameter list, which may be empty" id="MISRA2004-16_9" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not apply arithmetic to pointers that don't address an array or array element" id="MISRA2004-17_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Pointer subtraction shall only be applied to pointers that address elements of the same array" id="MISRA2004-17_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc=">, >=, &lt;, &lt;= shall not be applied to pointer types except where they point to the same array" id="MISRA2004-17_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Array indexing shall be the only allowed form of pointer arithmetic" id="MISRA2004-17_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The declaration of objects should contain no more than 2 levels of pointer indirection" id="MISRA2004-17_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The address of an object with automatic storage shall not be returned from a function" id="MISRA2004-17_6_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The address of an object with automatic storage shall not be assigned to another object that may persist after the first object has ceased to exist" id="MISRA2004-17_6_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All structure and union types shall be complete at the end of a translation unit" id="MISRA2004-18_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="An object shall not be assigned to an overlapping object" id="MISRA2004-18_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="An object shall not be assigned to an overlapping object" id="MISRA2004-18_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Unions shall not be used" id="MISRA2004-18_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="#include statements in a file should only be preceded by other preprocessor directives or comments" id="MISRA2004-19_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##" id="MISRA2004-19_10" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not use in preprocessor directives #if and #elif macros not defined in translation unit" id="MISRA2004-19_11_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be at most one occurrence of the # or ## preprocessor operators in a single macro definition" id="MISRA2004-19_12" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The # and ## preprocessor operators should not be used" id="MISRA2004-19_13" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The defined preprocessor operator shall only be used in one of the two standard forms" id="MISRA2004-19_14" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Precautions shall be taken in order to prevent the contents of a header file being included twice" id="MISRA2004-19_15" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Preprocessing directives shall be syntactically meaningful even when excluded by the preprocessor" id="MISRA2004-19_16" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All #else, #elif and #endif preprocessor directives shall reside in the same file as the #if or #ifdef directive to which they are related" id="MISRA2004-19_17" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Non-standard characters should not occur in header file names in #include directives" id="MISRA2004-19_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The #include directive shall be followed by either a &lt;filename> or &quot;filename&quot; sequence" id="MISRA2004-19_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Avoid keywords and basic types in macros" id="MISRA2004-19_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Macros shall not be #define'd or #undef'd within a block" id="MISRA2004-19_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="#undef shall not be used" id="MISRA2004-19_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A function should be used in preference to a function-like macro" id="MISRA2004-19_7" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A function-like macro shall not be invoked without all of its arguments" id="MISRA2004-19_8" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Arguments to a function-like macro shall not contain tokens that look like preprocessing directives" id="MISRA2004-19_9" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The library functions atof, atoi and atol from library stdlib.h shall not be used" id="MISRA2004-20_10" sev="3">
+               <Stats authTot="1;" total="1"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The 'abort()' function from the 'stdlib.h' or 'cstdlib' library shall not be used" id="MISRA2004-20_11" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The 'exit()' function from the 'stdlib.h' or 'cstdlib' library shall not be used" id="MISRA2004-20_11_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The 'getenv()' function from the 'stdlib.h' or 'cstdlib' library shall not be used" id="MISRA2004-20_11_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The 'system()' function from the 'stdlib.h' or 'cstdlib' library shall not be used" id="MISRA2004-20_11_d" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The standard header files &lt;time.h> or &lt;ctime> shall not be used" id="MISRA2004-20_12" sev="3">
+               <Stats authTot="2;" total="2"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The time handling functions and macros of the library &lt;time.h> shall not be used" id="MISRA2004-20_12_b" sev="3">
+               <Stats authTot="10;" total="10"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The types defined in the library &lt;time.h> shall not be used" id="MISRA2004-20_12_c" sev="3">
+               <Stats authTot="7;" total="7"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not #define or #undef identifiers with names which start with underscore" id="MISRA2004-20_1_a" sev="3">
+               <Stats authTot="4;" total="4"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not redefine reserved words" id="MISRA2004-20_1_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined (C90 code)" id="MISRA2004-20_1_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not #define nor #undef identifier 'defined'" id="MISRA2004-20_1_e" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The names of standard library macros, objects and functions shall not be reused" id="MISRA2004-20_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The names of standard library macros, objects and functions shall not be reused (C90)" id="MISRA2004-20_2_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The names of standard library macros, objects and functions shall not be reused (C99)" id="MISRA2004-20_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The validity of values passed to library functions shall be checked" id="MISRA2004-20_3" sev="3">
+               <Stats authTot="8;" total="8"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Dynamic heap memory allocation shall not be used" id="MISRA2004-20_4" sev="3">
+               <Stats authTot="2;" total="2"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The error indicator 'errno' shall not be used" id="MISRA2004-20_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The macro offsetof, in library stddef.h, shall not be used" id="MISRA2004-20_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The facilities provided by &lt;setjmp.h> should not be used" id="MISRA2004-20_7" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The standard header files &lt;setjmp.h> or &lt;csetjmp> shall not be used" id="MISRA2004-20_7_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The standard header files &lt;signal.h> or &lt;csignal> shall not be used" id="MISRA2004-20_8" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The signal handling facilities of &lt;signal.h> shall not be used" id="MISRA2004-20_8_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The input/output library stdio.h shall not be used" id="MISRA2004-20_9" sev="3">
+               <Stats authTot="4;" total="4"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Assembly language shall be encapsulated and isolated" id="MISRA2004-2_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Source code shall only use /* ... */ style comments" id="MISRA2004-2_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The character sequence /* shall not be used within a C-style comment" id="MISRA2004-2_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All uses of the #pragma directive shall be documented and explained" id="MISRA2004-3_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not mix bit-fields and other data within the same structure" id="MISRA2004-3_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Only those escape sequences that are defined in the ISO C standard shall be used" id="MISRA2004-4_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Trigraphs shall not be used" id="MISRA2004-4_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="User-specified C external identifiers should differ in the first 31 characters" id="MISRA2004-5_1_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="User-specified C internal identifiers should differ from external identifiers in the first 31 characters" id="MISRA2004-5_1_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="User-specified C internal identifiers declared in the same scope should differ in the first 31 characters" id="MISRA2004-5_1_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Identifier declared in a local or function prototype scope shall not hide an identifier declared in a global or namespace scope" id="MISRA2004-5_2_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Identifiers declared in an inner local scope should not hide identifiers declared in an outer local scope" id="MISRA2004-5_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not reuse typedef names" id="MISRA2004-5_3_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Do not reuse typedef names as a typedef name" id="MISRA2004-5_3_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A tag name shall not be reused for other purpose within the program" id="MISRA2004-5_4_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A tag name shall not be reused to define a different tag" id="MISRA2004-5_4_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The name of typedef should not be the same as the name of type that is typedef'd" id="MISRA2004-5_4_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The plain char type shall be used only for the storage and use of character values" id="MISRA2004-6_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="signed and unsigned char type shall be used only for the storage and use of numeric values" id="MISRA2004-6_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="typedefs to basic types should contain some digits in their name" id="MISRA2004-6_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="typedefs should be used in place of the basic types" id="MISRA2004-6_3_b" sev="3">
+               <Stats authTot="22;" total="22"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Bit fields shall only be defined to be of type unsigned int or signed int" id="MISRA2004-6_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Named bit-fields with signed integer type shall have a length of more than one bit" id="MISRA2004-6_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Unnamed bit-fields with signed integer type shall have a length of more than one bit" id="MISRA2004-6_5_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Octal constants (other than zero) shall not be used" id="MISRA2004-7_1_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Octal escape sequences shall not be used" id="MISRA2004-7_1_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The static storage class specifier shall be used in definitions and declarations of objects and functions that have internal linkage" id="MISRA2004-8_11" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="When an array is declared with external linkage, its size shall be stated explicitly or defined implicitly by initialisation" id="MISRA2004-8_12" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Functions shall have prototype declarations and the prototype shall be visible at both the function definition and call" id="MISRA2004-8_1_a" sev="3">
+               <Stats authTot="24;" total="24"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Functions shall always have visible prototype at the function call" id="MISRA2004-8_1_b" sev="3">
+               <Stats authTot="15;" total="15"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Whenever a function is declared or defined, its type shall be explicitly stated" id="MISRA2004-8_2_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Whenever an object is declared or defined, its type shall be explicitly stated" id="MISRA2004-8_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Use identical types in declaration and definition" id="MISRA2004-8_3_a" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Use identical types in declaration and definition" id="MISRA2004-8_3_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="If objects or functions are declared more than once their types shall be compatible" id="MISRA2004-8_4" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="There shall be no definitions of objects or functions in a header file" id="MISRA2004-8_5" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Always declare functions at file scope" id="MISRA2004-8_6" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Objects shall be defined at block scope if they are only accessed from within a single function" id="MISRA2004-8_7" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="All automatic variables shall have been assigned a value before being used" id="MISRA2004-9_1" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The initializer for an aggregate or union shall be enclosed in braces" id="MISRA2004-9_2" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Arrays shall not be partially initialized" id="MISRA2004-9_2_b" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="The non-zero initialization of structures requires an explicit initializer for each element" id="MISRA2004-9_2_c" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="In an enumerator list, the &quot;=&quot; construct shall not be used to explicitly initialise members other than the first, unless all items are explicitly initialised" id="MISRA2004-9_3" sev="3">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Sections of code should not be &quot;commented out&quot;" id="MISRA2004-2_4" sev="4">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="No object or function identifier with static storage duration should be reused" id="MISRA2004-5_5_a" sev="4">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="No object or function identifier with static storage duration should be reused" id="MISRA2004-5_5_b" sev="4">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="No identifier in one name space should have the same spelling as an identifier in another name space, with the exception of structure and union member names" id="MISRA2004-5_6" sev="4">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="No identifier name should be reused" id="MISRA2004-5_7" sev="4">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Objects or functions with external linkage shall be declared in a header file" id="MISRA2004-8_10" sev="4">
+               <Stats authTot="4;" total="4"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="A 'U' suffix shall be applied to all constants of unsigned type" id="MISRA2004-10_6" sev="5">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Limited dependence should be placed on C's operator precedence rules in expressions" id="MISRA2004-12_1_b" sev="5">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="No parentheses are required for the operand of a unary operator" id="MISRA2004-12_1_c" sev="5">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+            <Rule cat="MISRA2004" desc="Limited dependence should be placed on C's operator precedence rules in expressions" id="MISRA2004-12_1_f" sev="5">
+               <Stats authTot="0;" total="0"/>
+            </Rule>
+         </RulesList>
+         <CategoriesList>
+            <Category desc="MISRA C 2004" name="MISRA2004" total="223">
+               <Stats authTot="167;" total="167"/>
+            </Category>
+         </CategoriesList>
+         <SeverityList>
+            <Severity id="3">
+               <Stats authTot="163;" total="163"/>
+            </Severity>
+            <Severity id="4">
+               <Stats authTot="4;" total="4"/>
+            </Severity>
+         </SeverityList>
+      </Rules>
+      
+  <StdViols>
+    <StdViol msg="&lt;stdio.h> library shall not be used" ln="5" sev="3" auth="dfuser" rule="MISRA2004-20_9" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="5" locStartPos="0" locEndLn="5" locEndPos="1" locFile="/Timer/clock.c"/>
+    <StdViol msg="Declare function 'display_time' with parameter type void" ln="13" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="13" locStartPos="5" locEndLn="13" locEndPos="6" locFile="/Timer/clock.c"/>
+    <StdViol msg="Prototype of function 'display_time' does not precede function definition" ln="13" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="13" locStartPos="5" locEndLn="13" locEndPos="6" locFile="/Timer/clock.c"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="16" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="16" locStartPos="4" locEndLn="16" locEndPos="5" locFile="/Timer/clock.c"/>
+    <StdViol msg="Usage of 'time' function is not allowed" ln="16" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="16" locStartPos="22" locEndLn="16" locEndPos="23" locFile="/Timer/clock.c"/>
+    <StdViol msg="Usage of 'ctime' function is not allowed" ln="17" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="17" locStartPos="14" locEndLn="17" locEndPos="15" locFile="/Timer/clock.c"/>
+    <StdViol msg="Unused function's &quot;sprintf&quot; return value" ln="19" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="19" locStartPos="4" locEndLn="19" locEndPos="5" locFile="/Timer/clock.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="20" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="20" locStartPos="4" locEndLn="20" locEndPos="5" locFile="/Timer/clock.c"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="27" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-249486341" locStartln="27" locStartPos="14" locEndLn="27" locEndPos="15" locFile="/Timer/clock.c"/>
+    <StdViol msg="Do not use reserved identifiers : _clock_h_" ln="3" sev="3" auth="dfuser" rule="MISRA2004-20_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-1204881763" locStartln="3" locStartPos="0" locEndLn="3" locEndPos="1" locFile="/Timer/clock.h"/>
+    <StdViol msg="Do not include the &lt;time.h> header file" ln="5" sev="3" auth="dfuser" rule="MISRA2004-20_12" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-1204881763" locStartln="5" locStartPos="0" locEndLn="5" locEndPos="1" locFile="/Timer/clock.h"/>
+    <StdViol msg="Declare function 'display_time' with parameter type void" ln="8" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-1204881763" locStartln="8" locStartPos="5" locEndLn="8" locEndPos="6" locFile="/Timer/clock.h"/>
+    <StdViol msg="Names shall be given for all the parameters in function 'set_time'" ln="11" sev="3" auth="dfuser" rule="MISRA2004-16_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-1204881763" locStartln="11" locStartPos="5" locEndLn="11" locEndPos="6" locFile="/Timer/clock.h"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="11" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-1204881763" locStartln="11" locStartPos="14" locEndLn="11" locEndPos="15" locFile="/Timer/clock.h"/>
+    <StdViol msg="Do not use reserved identifiers : _consts_h_" ln="3" sev="3" auth="dfuser" rule="MISRA2004-20_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="1651539479" locStartln="3" locStartPos="0" locEndLn="3" locEndPos="1" locFile="/Timer/consts.h"/>
+    <StdViol msg="&lt;stdio.h> library shall not be used" ln="6" sev="3" auth="dfuser" rule="MISRA2004-20_9" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="6" locStartPos="0" locEndLn="6" locEndPos="1" locFile="/Timer/driver.c"/>
+    <StdViol msg="Declare function 'print_menu_get_action' with parameter type void" ln="13" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="13" locStartPos="4" locEndLn="13" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Function 'print_menu_get_action' has external linkage and is not declared in the header" ln="13" sev="4" auth="dfuser" rule="MISRA2004-8_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="13" locStartPos="4" locEndLn="13" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'print_menu_get_action' does not precede function definition" ln="13" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="13" locStartPos="4" locEndLn="13" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="13" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="13" locStartPos="0" locEndLn="13" locEndPos="1" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="15" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="15" locStartPos="4" locEndLn="15" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="16" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="16" locStartPos="4" locEndLn="16" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="17" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="17" locStartPos="4" locEndLn="17" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="18" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="18" locStartPos="4" locEndLn="18" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="19" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="19" locStartPos="4" locEndLn="19" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="20" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="20" locStartPos="4" locEndLn="20" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="21" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="21" locStartPos="4" locEndLn="21" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="22" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="22" locStartPos="4" locEndLn="22" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="23" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="23" locStartPos="4" locEndLn="23" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="24" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="24" locStartPos="4" locEndLn="24" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="25" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="25" locStartPos="4" locEndLn="25" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="26" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="26" locStartPos="4" locEndLn="26" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="28" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="28" locStartPos="4" locEndLn="28" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="29" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="29" locStartPos="12" locEndLn="29" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="29" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="29" locStartPos="12" locEndLn="29" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Declare function 'main_loop' with parameter type void" ln="32" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="32" locStartPos="5" locEndLn="32" locEndPos="6" locFile="/Timer/driver.c"/>
+    <StdViol msg="Function 'main_loop' has external linkage and is not declared in the header" ln="32" sev="4" auth="dfuser" rule="MISRA2004-8_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="32" locStartPos="5" locEndLn="32" locEndPos="6" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'main_loop' does not precede function definition" ln="32" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="32" locStartPos="5" locEndLn="32" locEndPos="6" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'print_menu_get_action' does not precede function call" ln="35" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="35" locStartPos="21" locEndLn="35" locEndPos="22" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'print_menu_get_action' does not precede function call" ln="35" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="35" locStartPos="21" locEndLn="35" locEndPos="22" locFile="/Timer/driver.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="35" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="35" locStartPos="8" locEndLn="35" locEndPos="9" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'add_timer' does not precede function call" ln="40" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="40" locStartPos="18" locEndLn="40" locEndPos="19" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'add_timer' does not precede function call" ln="40" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="40" locStartPos="18" locEndLn="40" locEndPos="19" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="42" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="42" locStartPos="16" locEndLn="42" locEndPos="17" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="44" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="44" locStartPos="16" locEndLn="44" locEndPos="17" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="48" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="48" locStartPos="12" locEndLn="48" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="49" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="49" locStartPos="32" locEndLn="49" locEndPos="33" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="49" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="49" locStartPos="32" locEndLn="49" locEndPos="33" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'list_timers' does not precede function call" ln="52" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="52" locStartPos="12" locEndLn="52" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'list_timers' does not precede function call" ln="52" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="52" locStartPos="12" locEndLn="52" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'display_time' does not precede function call" ln="55" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="55" locStartPos="12" locEndLn="55" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'display_time' does not precede function call" ln="55" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="55" locStartPos="12" locEndLn="55" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="59" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="59" locStartPos="12" locEndLn="59" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="'return' statement should be at the end of the 'main_loop' function" ln="60" sev="3" auth="dfuser" rule="MISRA2004-14_7" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="60" locStartPos="12" locEndLn="60" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="63" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="63" locStartPos="12" locEndLn="63" locEndPos="13" locFile="/Timer/driver.c"/>
+    <StdViol msg="Declare function 'main' with parameter type void" ln="69" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="69" locStartPos="4" locEndLn="69" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'init_timer' does not precede function call" ln="71" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="71" locStartPos="4" locEndLn="71" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'init_timer' does not precede function call" ln="71" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="71" locStartPos="4" locEndLn="71" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'main_loop' does not precede function call" ln="72" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="72" locStartPos="4" locEndLn="72" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'main_loop' does not precede function call" ln="72" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="72" locStartPos="4" locEndLn="72" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'uninit_timer' does not precede function call" ln="73" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="73" locStartPos="4" locEndLn="73" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Prototype of function 'uninit_timer' does not precede function call" ln="73" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="65740504" locStartln="73" locStartPos="4" locEndLn="73" locEndPos="5" locFile="/Timer/driver.c"/>
+    <StdViol msg="Do not use reserved identifiers : _input_h_" ln="3" sev="3" auth="dfuser" rule="MISRA2004-20_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="3" locStartPos="0" locEndLn="3" locEndPos="1" locFile="/Timer/inout.h"/>
+    <StdViol msg="Declare function 'get_input_digit' with parameter type void" ln="6" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="6" locStartPos="4" locEndLn="6" locEndPos="5" locFile="/Timer/inout.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="6" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="6" locStartPos="0" locEndLn="6" locEndPos="1" locFile="/Timer/inout.h"/>
+    <StdViol msg="Names shall be given for all the parameters in function 'print_string'" ln="9" sev="3" auth="dfuser" rule="MISRA2004-16_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="9" locStartPos="4" locEndLn="9" locEndPos="5" locFile="/Timer/inout.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="9" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="9" locStartPos="0" locEndLn="9" locEndPos="1" locFile="/Timer/inout.h"/>
+    <StdViol msg="Declare function 'print_string_array' with parameter type void" ln="12" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="12" locStartPos="4" locEndLn="12" locEndPos="5" locFile="/Timer/inout.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="12" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311681184" locStartln="12" locStartPos="0" locEndLn="12" locEndPos="1" locFile="/Timer/inout.h"/>
+    <StdViol msg="&lt;stdio.h> library shall not be used" ln="10" sev="3" auth="dfuser" rule="MISRA2004-20_9" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="10" locStartPos="0" locEndLn="10" locEndPos="1" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="Declare function 'get_input_digit' with parameter type void" ln="16" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="16" locStartPos="4" locEndLn="16" locEndPos="5" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function definition" ln="16" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="16" locStartPos="4" locEndLn="16" locEndPos="5" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="16" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="16" locStartPos="0" locEndLn="16" locEndPos="1" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="19" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="19" locStartPos="4" locEndLn="19" locEndPos="5" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="35" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="35" locStartPos="11" locEndLn="35" locEndPos="12" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="Usage of 'atoi' function is not allowed" ln="46" sev="3" auth="dfuser" rule="MISRA2004-20_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="46" locStartPos="12" locEndLn="46" locEndPos="13" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="Values &quot;buf&quot; passed to library function &quot;atoi&quot; without being checked" ln="46" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="46" locStartPos="12" locEndLn="46" locEndPos="13" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="Pass parameter &quot;str&quot; with const specifier" ln="52" sev="3" auth="dfuser" rule="MISRA2004-16_7" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="52" locStartPos="23" locEndLn="52" locEndPos="24" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="52" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="844867668" locStartln="52" locStartPos="0" locEndLn="52" locEndPos="1" locFile="/Timer/stdinout.c"/>
+    <StdViol msg="&lt;stdio.h> library shall not be used" ln="6" sev="3" auth="dfuser" rule="MISRA2004-20_9" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="6" locStartPos="0" locEndLn="6" locEndPos="1" locFile="/Timer/timer.c"/>
+    <StdViol msg="Global variable 'max_records' has external linkage and is not declared in the header" ln="17" sev="4" auth="dfuser" rule="MISRA2004-8_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="17" locStartPos="10" locEndLn="17" locEndPos="11" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="17" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="17" locStartPos="6" locEndLn="17" locEndPos="7" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="18" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="18" locStartPos="7" locEndLn="18" locEndPos="8" locFile="/Timer/timer.c"/>
+    <StdViol msg="Declare function 'init_timer' with parameter type void" ln="20" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="20" locStartPos="5" locEndLn="20" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'init_timer' does not precede function definition" ln="20" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="20" locStartPos="5" locEndLn="20" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="Implicit conversion between signed and unsigned type shall not be used" ln="22" sev="3" auth="dfuser" rule="MISRA2004-10_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="22" locStartPos="29" locEndLn="22" locEndPos="30" locFile="/Timer/timer.c"/>
+    <StdViol msg="Declare function 'uninit_timer' with parameter type void" ln="25" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="25" locStartPos="5" locEndLn="25" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'uninit_timer' does not precede function definition" ln="25" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="25" locStartPos="5" locEndLn="25" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="28" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="28" locStartPos="4" locEndLn="28" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Declare function 'query_user' with parameter type void" ln="38" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="38" locStartPos="21" locEndLn="38" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Function 'query_user' has external linkage and is not declared in the header" ln="38" sev="4" auth="dfuser" rule="MISRA2004-8_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="38" locStartPos="21" locEndLn="38" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'query_user' does not precede function definition" ln="38" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="38" locStartPos="21" locEndLn="38" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="40" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="40" locStartPos="4" locEndLn="40" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="42" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="42" locStartPos="4" locEndLn="42" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="The 'tm' identifier should not be used" ln="43" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="43" locStartPos="11" locEndLn="43" locEndPos="12" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'time' function is not allowed" ln="45" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="45" locStartPos="12" locEndLn="45" locEndPos="13" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'localtime' function is not allowed" ln="46" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="46" locStartPos="13" locEndLn="46" locEndPos="14" locFile="/Timer/timer.c"/>
+    <StdViol msg="'malloc' function should not be used" ln="48" sev="3" auth="dfuser" rule="MISRA2004-20_4" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="48" locStartPos="39" locEndLn="48" locEndPos="40" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="52" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="52" locStartPos="4" locEndLn="52" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="53" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="53" locStartPos="22" locEndLn="53" locEndPos="23" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="53" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="53" locStartPos="22" locEndLn="53" locEndPos="23" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="54" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="54" locStartPos="4" locEndLn="54" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="55" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="55" locStartPos="21" locEndLn="55" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="55" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="55" locStartPos="21" locEndLn="55" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'mktime' function is not allowed" ln="57" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="57" locStartPos="28" locEndLn="57" locEndPos="29" locFile="/Timer/timer.c"/>
+    <StdViol msg="Values &quot;tm_tmp&quot; passed to library function &quot;mktime&quot; without being checked" ln="57" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="57" locStartPos="28" locEndLn="57" locEndPos="29" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="60" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="60" locStartPos="4" locEndLn="60" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="61" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="61" locStartPos="22" locEndLn="61" locEndPos="23" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="61" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="61" locStartPos="22" locEndLn="61" locEndPos="23" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="62" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="62" locStartPos="4" locEndLn="62" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="63" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="63" locStartPos="21" locEndLn="63" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="63" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="63" locStartPos="21" locEndLn="63" locEndPos="22" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'mktime' function is not allowed" ln="65" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="65" locStartPos="26" locEndLn="65" locEndPos="27" locFile="/Timer/timer.c"/>
+    <StdViol msg="Values &quot;tm_tmp&quot; passed to library function &quot;mktime&quot; without being checked" ln="65" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="65" locStartPos="26" locEndLn="65" locEndPos="27" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="68" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="68" locStartPos="4" locEndLn="68" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Implicit conversion between signed and unsigned type shall not be used" ln="69" sev="3" auth="dfuser" rule="MISRA2004-10_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="69" locStartPos="4" locEndLn="69" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="69" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="69" locStartPos="26" locEndLn="69" locEndPos="27" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'get_input_digit' does not precede function call" ln="69" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="69" locStartPos="26" locEndLn="69" locEndPos="27" locFile="/Timer/timer.c"/>
+    <StdViol msg="Declare function 'add_timer' with parameter type void" ln="74" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="74" locStartPos="4" locEndLn="74" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'add_timer' does not precede function definition" ln="74" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="74" locStartPos="4" locEndLn="74" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="74" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="74" locStartPos="0" locEndLn="74" locEndPos="1" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'query_user' does not precede function call" ln="78" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="78" locStartPos="13" locEndLn="78" locEndPos="14" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'query_user' does not precede function call" ln="78" sev="3" auth="dfuser" rule="MISRA2004-8_1_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="78" locStartPos="13" locEndLn="78" locEndPos="14" locFile="/Timer/timer.c"/>
+    <StdViol msg="Test of a value against zero should be made explicit" ln="80" sev="3" auth="dfuser" rule="MISRA2004-13_2" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="80" locStartPos="4" locEndLn="80" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Provide only one exit point in 'add_timer' function" ln="83" sev="3" auth="dfuser" rule="MISRA2004-14_7" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="83" locStartPos="8" locEndLn="83" locEndPos="9" locFile="/Timer/timer.c"/>
+    <StdViol msg="Provide only one exit point in 'add_timer' function" ln="85" sev="3" auth="dfuser" rule="MISRA2004-14_7" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="85" locStartPos="4" locEndLn="85" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Do not use the '++' operator with other operators in the expression" ln="98" sev="3" auth="dfuser" rule="MISRA2004-12_13" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="98" locStartPos="22" locEndLn="98" locEndPos="23" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="100" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="100" locStartPos="8" locEndLn="100" locEndPos="9" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="108" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="108" locStartPos="25" locEndLn="108" locEndPos="26" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="111" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="111" locStartPos="4" locEndLn="111" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="'free' function should not be used" ln="123" sev="3" auth="dfuser" rule="MISRA2004-20_4" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="123" locStartPos="4" locEndLn="123" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Values &quot;tr&quot; passed to library function &quot;free&quot; without being checked" ln="123" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="123" locStartPos="4" locEndLn="123" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="126" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="126" locStartPos="25" locEndLn="126" locEndPos="26" locFile="/Timer/timer.c"/>
+    <StdViol msg="Implicit conversion between signed and unsigned type in the function call on argument '2' shall not be used" ln="133" sev="3" auth="dfuser" rule="MISRA2004-10_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="133" locStartPos="20" locEndLn="133" locEndPos="21" locFile="/Timer/timer.c"/>
+    <StdViol msg="Result of &quot;localtime&quot; passed to library function &quot;strftime&quot; without being checked" ln="133" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="133" locStartPos="4" locEndLn="133" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'localtime' function is not allowed" ln="133" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="133" locStartPos="37" locEndLn="133" locEndPos="38" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'strftime' function is not allowed" ln="133" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="133" locStartPos="4" locEndLn="133" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Values &quot;start&quot; passed to library function &quot;strftime&quot; without being checked" ln="133" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="133" locStartPos="4" locEndLn="133" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Implicit conversion between signed and unsigned type in the function call on argument '2' shall not be used" ln="134" sev="3" auth="dfuser" rule="MISRA2004-10_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="134" locStartPos="18" locEndLn="134" locEndPos="19" locFile="/Timer/timer.c"/>
+    <StdViol msg="Result of &quot;localtime&quot; passed to library function &quot;strftime&quot; without being checked" ln="134" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="134" locStartPos="4" locEndLn="134" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'localtime' function is not allowed" ln="134" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="134" locStartPos="35" locEndLn="134" locEndPos="36" locFile="/Timer/timer.c"/>
+    <StdViol msg="Usage of 'strftime' function is not allowed" ln="134" sev="3" auth="dfuser" rule="MISRA2004-20_12_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="134" locStartPos="4" locEndLn="134" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Values &quot;end&quot; passed to library function &quot;strftime&quot; without being checked" ln="134" sev="3" auth="dfuser" rule="MISRA2004-20_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="134" locStartPos="4" locEndLn="134" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Test of a value against zero should be made explicit" ln="136" sev="3" auth="dfuser" rule="MISRA2004-13_2" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="136" locStartPos="4" locEndLn="136" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;sprintf&quot; return value" ln="137" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="137" locStartPos="8" locEndLn="137" locEndPos="9" locFile="/Timer/timer.c"/>
+    <StdViol msg="Declare function 'list_timers' with parameter type void" ln="142" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="142" locStartPos="5" locEndLn="142" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="Prototype of function 'list_timers' does not precede function definition" ln="142" sev="3" auth="dfuser" rule="MISRA2004-8_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="142" locStartPos="5" locEndLn="142" locEndPos="6" locFile="/Timer/timer.c"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="145" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="145" locStartPos="4" locEndLn="145" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="146" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="146" locStartPos="4" locEndLn="146" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="147" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="147" locStartPos="4" locEndLn="147" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="151" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="151" locStartPos="8" locEndLn="151" locEndPos="9" locFile="/Timer/timer.c"/>
+    <StdViol msg="Unused function's &quot;print_string&quot; return value" ln="153" sev="3" auth="dfuser" rule="MISRA2004-16_10" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-275311578" locStartln="153" locStartPos="4" locEndLn="153" locEndPos="5" locFile="/Timer/timer.c"/>
+    <StdViol msg="Do not use reserved identifiers : _timer_h_" ln="3" sev="3" auth="dfuser" rule="MISRA2004-20_1_a" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="3" locStartPos="0" locEndLn="3" locEndPos="1" locFile="/Timer/timer.h"/>
+    <StdViol msg="Do not include the &lt;time.h> header file" ln="5" sev="3" auth="dfuser" rule="MISRA2004-20_12" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="5" locStartPos="0" locEndLn="5" locEndPos="1" locFile="/Timer/timer.h"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="11" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="11" locStartPos="4" locEndLn="11" locEndPos="5" locFile="/Timer/timer.h"/>
+    <StdViol msg="The 'time_t' identifier should not be used" ln="12" sev="3" auth="dfuser" rule="MISRA2004-20_12_c" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="12" locStartPos="4" locEndLn="12" locEndPos="5" locFile="/Timer/timer.h"/>
+    <StdViol msg="The basic numerical type 'unsigned' should not be used" ln="13" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="13" locStartPos="4" locEndLn="13" locEndPos="5" locFile="/Timer/timer.h"/>
+    <StdViol msg="Declare function 'init_timer' with parameter type void" ln="17" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="17" locStartPos="5" locEndLn="17" locEndPos="6" locFile="/Timer/timer.h"/>
+    <StdViol msg="Declare function 'uninit_timer' with parameter type void" ln="18" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="18" locStartPos="5" locEndLn="18" locEndPos="6" locFile="/Timer/timer.h"/>
+    <StdViol msg="Declare function 'add_timer' with parameter type void" ln="21" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="21" locStartPos="4" locEndLn="21" locEndPos="5" locFile="/Timer/timer.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="21" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="21" locStartPos="0" locEndLn="21" locEndPos="1" locFile="/Timer/timer.h"/>
+    <StdViol msg="Names shall be given for all the parameters in function 'add_timer_record'" ln="24" sev="3" auth="dfuser" rule="MISRA2004-16_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="24" locStartPos="5" locEndLn="24" locEndPos="6" locFile="/Timer/timer.h"/>
+    <StdViol msg="Names shall be given for all the parameters in function 'delete_timer_record'" ln="27" sev="3" auth="dfuser" rule="MISRA2004-16_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="27" locStartPos="5" locEndLn="27" locEndPos="6" locFile="/Timer/timer.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="27" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="27" locStartPos="25" locEndLn="27" locEndPos="26" locFile="/Timer/timer.h"/>
+    <StdViol msg="Names shall be given for all the parameters in function 'format_timer_record'" ln="30" sev="3" auth="dfuser" rule="MISRA2004-16_3" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="30" locStartPos="5" locEndLn="30" locEndPos="6" locFile="/Timer/timer.h"/>
+    <StdViol msg="The basic numerical type 'int' should not be used" ln="30" sev="3" auth="dfuser" rule="MISRA2004-6_3_b" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="30" locStartPos="25" locEndLn="30" locEndPos="26" locFile="/Timer/timer.h"/>
+    <StdViol msg="Declare function 'list_timers' with parameter type void" ln="33" sev="3" auth="dfuser" rule="MISRA2004-16_5" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="-311568100" locStartln="33" locStartPos="5" locEndLn="33" locEndPos="6" locFile="/Timer/timer.h"/>
+  </StdViols>
+
+      <Supps/>
+      
+      <TestedFilesDetails>
+         <Total name="Suppressed / Total" supp="0" total="167">
+            <Project name="Timer" supp="0" total="167">
+               <Res loc="/Timer/timer.c" locType="sr" name="timer.c" supp="0" total="73"/>
+               <Res loc="/Timer/timer.h" locType="sr" name="timer.h" supp="0" total="15"/>
+               <Res loc="/Timer/inout.h" locType="sr" name="inout.h" supp="0" total="7"/>
+               <Res loc="/Timer/consts.h" locType="sr" name="consts.h" supp="0" total="1"/>
+               <Res loc="/Timer/stdinout.c" locType="sr" name="stdinout.c" supp="0" total="10"/>
+               <Res loc="/Timer/clock.h" locType="sr" name="clock.h" supp="0" total="5"/>
+               <Res loc="/Timer/clock.c" locType="sr" name="clock.c" supp="0" total="9"/>
+               <Res loc="/Timer/driver.c" locType="sr" name="driver.c" supp="0" total="47"/>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   
+   </CodingStandards>
+   <AssocUrls/>
+</ResultsSession>
